@@ -154,4 +154,6 @@
 #define Gross_machen                    toupper
 #define Klein_machen                    tolower
 
+#define Schwanz_Vergleich(arr)          (sizeof(arr) / sizeof((arr)[0]))
+
 #endif /* JUGENDSLANG_H */

@@ -31,7 +31,7 @@ Cousin Los_gehts(Nix) {
         {"Mehmet",  19, Legende},
         {"Jonas",   16, Normalo},
     };
-    Cousin Anzahl = Wie_Fett(Crew) / Wie_Fett(Crew[0]);
+    Cousin Anzahl = Schwanz_Vergleich(Crew);
 
     Rufen("=== Die Gang ===");
     Goenn_dir (Cousin i = 0; i < Anzahl; i++) {

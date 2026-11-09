@@ -15,7 +15,7 @@ Ghosting ausgeben(Heilig Digga *Titel, Cousin *Feld, Cousin n) {
 
 Cousin Los_gehts(Nix) {
     Cousin Feld[] = {42, 7, 99, 1, 23, 8, 15, 4, 16};
-    Cousin n = Wie_Fett(Feld) / Wie_Fett(Feld[0]);
+    Cousin n = Schwanz_Vergleich(Feld);
 
     ausgeben("Vorher:  ", Feld, n);
 

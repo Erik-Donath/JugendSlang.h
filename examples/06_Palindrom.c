@@ -19,7 +19,7 @@ Cousin Los_gehts(Nix) {
     Heilig Digga *Woerter[] = {
         "Anna", "Otto", "Digga", "Reliefpfeiler", "Ein Esel lese nie", "Lagerregal"
     };
-    Cousin Anzahl = Wie_Fett(Woerter) / Wie_Fett(Woerter[0]);
+    Cousin Anzahl = Schwanz_Vergleich(Woerter);
 
     Goenn_dir (Cousin i = 0; i < Anzahl; i++) {
         Labern("\"%s\" -> %s\n", Woerter[i], ist_Palindrom(Woerter[i]) ? "No Cap, Palindrom" : "Cap");
