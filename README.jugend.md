@@ -6,7 +6,7 @@
 
 Beispiel:
 ```c
-#include "Jugendslang.h"
+#include "../Jugendslang.h"
 
 Cousin Los_gehts(Nix) {
     Cousin Alter = 18;
@@ -24,7 +24,7 @@ Cousin Los_gehts(Nix) {
 Gibt nix zu installieren, Digga. Kopier einfach `Jugendslang.h` in dein Projekt und bind sie so ein:
 
 ```c
-#include "Jugendslang.h"
+#include "../Jugendslang.h"
 ```
 
 ```bash
